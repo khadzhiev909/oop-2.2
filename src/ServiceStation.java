@@ -2,6 +2,7 @@ import java.util.Objects;
 
 public class ServiceStation {
     private String modelName;
+
     private int wheelsCount;
 
 
