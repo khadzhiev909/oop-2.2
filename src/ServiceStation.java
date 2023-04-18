@@ -4,6 +4,7 @@ public class ServiceStation {
     private String modelName;
     private int wheelsCount;
 
+
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
             System.out.println("Обслуживаем " + car.getModelName());
